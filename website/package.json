@@ -1,0 +1,35 @@
+{
+  "name": "appengcw1",
+  "version": "1.0.0",
+  "description": "Coursework",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "ip": "^1.1.5",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UP885188/AppEngCW1.git"
+  },
+  "author": "Joel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UP885188/AppEngCW1/issues"
+  },
+  "homepage": "https://github.com/UP885188/AppEngCW1#readme"
+}

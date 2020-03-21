@@ -1,0 +1,99 @@
+html,
+body,
+.wholepage {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.wholepage * {
+ /* border: 1px solid black; */
+ position: relative;
+}
+
+.wholepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "B1 B2 B3 B4 B5 B6 B7" "texteditor texteditor texteditor texteditor texteditor texteditor texteditor" "texteditor texteditor texteditor texteditor texteditor texteditor texteditor" "texteditor texteditor texteditor texteditor texteditor texteditor texteditor" "texteditor texteditor texteditor texteditor texteditor texteditor texteditor" "texteditor texteditor texteditor texteditor texteditor texteditor texteditor";
+}
+
+.selected{
+  background-color: #ccd4e0;
+}
+
+ ul:hover,
+ li:hover {
+   background-color: #e3e3e3;
+ }
+
+ul {
+  font-size: 1.6rem;
+  padding: 0.3em;
+}
+
+li{
+  font-size: 1.2rem;
+  margin-left: 2em;
+  background-color: white;
+  padding: 0.3em;
+}
+
+.Button:Hover {
+  background-color:#6c7c7c;
+}
+
+.Button {
+  min-width: 20%;
+  margin: 0.5em;
+  background-color:#768d87;
+  text-align: center;
+  border-radius:1.25em;
+  border:1px solid black;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:1.25em;
+  font-weight:bold;
+  padding:0.5em 0.5em;
+  text-decoration:none;
+}
+
+.B1 {
+  grid-area: B1;
+}
+
+.B2 {
+  grid-area: B2;
+}
+
+.B3 {
+  grid-area: B3;
+}
+
+.B4 {
+  grid-area: B4;
+}
+
+.B5 {
+  grid-area: B5;
+}
+
+.B6 {
+  grid-area: B6;
+}
+
+.B7 {
+  grid-area: B7;
+}
+
+.texteditor {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+  grid-area: texteditor;
+  outline-style: solid;
+  overflow: scroll;
+}
